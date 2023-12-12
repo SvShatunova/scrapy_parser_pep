@@ -4,6 +4,7 @@ from pathlib import Path
 
 import pytest
 
+
 try:
     import pep_parse
 except ModuleNotFoundError:
