@@ -1,6 +1,6 @@
 from scrapy import signals
 
-from itemadapter import is_item, ItemAdapter
+# from itemadapter import is_item, ItemAdapter
 
 
 class PepParseSpiderMiddleware:
