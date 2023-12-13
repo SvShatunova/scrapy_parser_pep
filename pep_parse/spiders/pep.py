@@ -1,10 +1,11 @@
 import scrapy
+from pep_parse.settings import PEP_SPIDER_URL
 
 
 class PepSpider(scrapy.Spider):
     name = 'pep'
-    allowed_domains = ['peps.python.org']
-    start_urls = ['https://peps.python.org/']
+    allowed_domains = (PEP_SPIDER_URL,)
+    start_urls = [f'https://{PEP_SPIDER_URL}/']
 
     def parse(self, response):
         """собирает ссылки на документы PEP."""
