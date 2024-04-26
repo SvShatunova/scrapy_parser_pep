@@ -31,7 +31,7 @@
 #### Технологии
 
 ![Python](https://img.shields.io/badge/python-3.9-blue?logo=python)
-![Scrapy](https://img.shields.io/badge/scrapy-2.5.1-brightgreen?style=flat&logo=appveyor&logoColor=green&logoSize=auto&labelColor=black&color=blue&cacheSeconds=%203600)
+![Scrapy](https://img.shields.io/badge/Scrapy-2.5.1-brightgreen?logo=scrapy&labelColor=grey&color=blue)
 
 ##### Автор
 
